@@ -12,11 +12,6 @@ import seaborn as sns
 
 from matplotlib import cm
 from matplotlib.patches import Circle, Rectangle, Arc, ConnectionPatch
-from matplotlib.patches import Polygon
-from matplotlib.collections import PatchCollection
-from matplotlib.colors import LinearSegmentedColormap, ListedColormap, BoundaryNorm
-from matplotlib.path import Path
-from matplotlib.patches import PathPatch
 
 
 # get_player_shotchartdetail: player_name, season_id -> player_shotchart_df, league_avg
