@@ -2,7 +2,7 @@
 
 This is my kind of project. I'll get this done by June.
 All jokes aside, this is a my attempt to create a shot chart, hexmap, and heatmap.
-All complete funnctions are contained in the jupyter notebook.
+All complete functions are contained in the jupyter notebook.
 
 ## Getting Started
 
