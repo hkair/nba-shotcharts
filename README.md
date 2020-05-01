@@ -1,6 +1,8 @@
 # NBA Shot Charts (inspired by FlightReacts)
 
 This is my kind of project. I'll get this done by June.
+All jokes aside, this is a my attempt to create a shot chart, hexmap, and heatmap.
+All complete funnctions are contained in the jupyter notebook.
 
 ## Getting Started
 
@@ -9,7 +11,7 @@ First, clone the repository.
 ### Prerequisites
 
 ```
-cd .. into directory
+cd .. into repository
 ```
 
 ### Installing
@@ -33,6 +35,6 @@ python nba_shotcharts.py "Michael Jordan" "1997-98"
 
 ## Acknowledgments
 
-* https://github.com/savvastj
-* https://github.com/swar
+* https://github.com/savvastj for the draw_court function.
+* https://github.com/swar for the nba_api.
 * Inspired by FlightsReact, Youtube's best Basketball Player
