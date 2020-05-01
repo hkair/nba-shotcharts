@@ -1,3 +1,5 @@
+import sys
+
 import numpy as np
 import pandas as pd
 
@@ -137,10 +139,21 @@ def shot_chart(data, title="", color="b", xlim=(-250, 250), ylim=(422.5, -47.5),
 
 
 if __name__ == "__main__":
-    # Dame Dolla
-    player_shotchart_df, league_avg = get_player_shotchartdetail("Damian Lillard", "2019-20")
 
-    shot_chart(player_shotchart_df, title="Damian Lillard Shot Chart 2019-20")
+    # Accept 2 arguments
+    ## First argument is the player name
+    ## Second argument is the season id
+    player_name = sys.argv[1]
+    season_id = sys.argv[2]
+
+    # title
+    title = player_name + " Shot Chart " + season_id
+
+    # Get Shotchart Data using nba_api
+    player_shotchart_df, league_avg = get_player_shotchartdetail(player_name, season_id)
+
+    # Draw Court and plot Shot Chart 
+    shot_chart(player_shotchart_df, title=title)
     # Set the size for our plots
     plt.rcParams['figure.figsize'] = (12, 11)
     plt.show()
