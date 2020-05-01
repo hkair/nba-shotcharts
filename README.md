@@ -1,4 +1,4 @@
-# NBA Shot Charts (inspired by FlightReacts)
+# NBA Shot Charts (Inspired by FlightReacts)
 
 This is my kind of project. I'll get this done by June.
 All jokes aside, this is a my attempt to create a shot chart, hexmap, and heatmap.
