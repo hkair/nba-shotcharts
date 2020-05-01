@@ -8,6 +8,10 @@ All complete functions are contained in the jupyter notebook.
 
 First, clone the repository.
 
+``` 
+git clone https://github.com/hkair/nba-shotcharts.git
+```
+
 ### Prerequisites
 
 ```
