@@ -143,8 +143,14 @@ if __name__ == "__main__":
     # Accept 2 arguments
     ## First argument is the player name
     ## Second argument is the season id
-    player_name = sys.argv[1]
-    season_id = sys.argv[2]
+
+    ### if there is no argument
+    if (len(sys.argv) == 1):
+        player_name = "Michael Jordan"
+        season_id = "1997-98"
+    else:
+        player_name = sys.argv[1]
+        season_id = sys.argv[2]
 
     # title
     title = player_name + " Shot Chart " + season_id
@@ -152,7 +158,7 @@ if __name__ == "__main__":
     # Get Shotchart Data using nba_api
     player_shotchart_df, league_avg = get_player_shotchartdetail(player_name, season_id)
 
-    # Draw Court and plot Shot Chart 
+    # Draw Court and plot Shot Chart
     shot_chart(player_shotchart_df, title=title)
     # Set the size for our plots
     plt.rcParams['figure.figsize'] = (12, 11)
