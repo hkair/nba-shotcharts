@@ -4,6 +4,9 @@ This is my kind of project. I'll get this done by June.
 All jokes aside, this is a my attempt to create a shot chart, hexmap, and heatmap.
 All complete functions are contained in the jupyter notebook.
 
+Here's a link to the youtube tutorial:
+https://youtu.be/a3u-3gEYvxM
+
 ## Getting Started
 
 First, clone the repository.
